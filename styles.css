@@ -9,6 +9,11 @@ header {
     padding: 20px;
     text-align: center;
 }
+header img {
+    max-width: 200px; /* Adjust the maximum width of the logo as needed */
+    display: block;
+    margin: 0 auto; /* Center the logo horizontally */
+}
 main {
     padding: 20px;
     text-align: center;
@@ -20,4 +25,9 @@ footer {
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
+}
+main img {
+    max-width: 100%; /* Make sure images in the main section fit within the container */
+    display: block;
+    margin: 0 auto; /* Center the images horizontally */
 }
