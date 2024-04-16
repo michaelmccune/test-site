@@ -8,11 +8,13 @@ header {
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
+    height: 8vh; /* 8% of viewport height */
 }
 header img {
-    max-width: 200px; /* Adjust the maximum width of the logo as needed */
+    max-width: 100%; /* Adjust the maximum width of the logo as needed */
+    max-height: 100%; /* Adjust the maximum height of the logo as needed */
     display: block;
-    margin: 0 auto; /* Center the logo horizontally */
+    margin: auto; /* Center the logo horizontally */
 }
 main {
     padding: 20px;
@@ -26,8 +28,9 @@ footer {
     padding: 20px;
     text-align: center;
 }
-main img {
-    max-width: 100%; /* Make sure images in the main section fit within the container */
+main img.linktree {
+    max-width: 100%; /* Make sure linktree image fits within the container */
+    max-height: 20vh; /* 20% of viewport height */
     display: block;
-    margin: 0 auto; /* Center the images horizontally */
+    margin: 0 auto; /* Center the linktree image horizontally */
 }
